@@ -27,3 +27,4 @@ var celsius = Number(rs.question("Digite temperatura em Celsius: "));
 var kelin = celsius + 273.15;
 var fahrenheit = (celsius * 9 / 5) + 32;
 console.log("Kelvin \u00E9 ".concat(kelin, ", Fahrenheit ").concat(fahrenheit));
+  
