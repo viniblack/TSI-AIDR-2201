@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DateComponent } from './views/date/date.component';
 import { AboutComponent } from './views/about/about.component';
+import { InterpolationComponent } from './views/interpolation/interpolation.component';
+import { Exercicio1Component } from './views/exercicio1/exercicio1.component';
+import { Exercicio2Component } from './views/exercicio2/exercicio2.component';
+import { Exercicio3Component } from './views/exercicio3/exercicio3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DateComponent,
-    AboutComponent
+    AboutComponent,
+    InterpolationComponent,
+    Exercicio1Component,
+    Exercicio2Component,
+    Exercicio3Component
   ],
   imports: [
     BrowserModule,
