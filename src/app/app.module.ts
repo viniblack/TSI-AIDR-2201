@@ -9,6 +9,8 @@ import { InterpolationComponent } from './views/interpolation/interpolation.comp
 import { Exercicio1Component } from './views/exercicio1/exercicio1.component';
 import { Exercicio2Component } from './views/exercicio2/exercicio2.component';
 import { Exercicio3Component } from './views/exercicio3/exercicio3.component';
+import { Exercicio4Component } from './views/exercicio4/exercicio4.component';
+import { EventBidingComponent } from './views/event-biding/event-biding.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { Exercicio3Component } from './views/exercicio3/exercicio3.component';
     InterpolationComponent,
     Exercicio1Component,
     Exercicio2Component,
-    Exercicio3Component
+    Exercicio3Component,
+    Exercicio4Component,
+    EventBidingComponent
   ],
   imports: [
     BrowserModule,
