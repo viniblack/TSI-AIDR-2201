@@ -1,0 +1,17 @@
+.img1{
+  width: 25vw;
+  border-style: dotted;
+  border-color: yellow;
+}
+
+.img2{
+  width: 25vw;
+  border-style: solid;
+  border-color: green;
+}
+
+.img3{
+  width: 25vw;
+  border-style: double;
+  border-color: blue;
+}
