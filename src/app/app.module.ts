@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,10 @@ import { Ex02Component } from './views/lista02/ex02/ex02.component';
 import { Ex03Component } from './views/lista02/ex03/ex03.component';
 import { Ex04Component } from './views/lista02/ex04/ex04.component';
 import { Ex05Component } from './views/lista02/ex05/ex05.component';
+import { ExemploNgifComponent } from './views/exemplo-ngif/exemplo-ngif.component';
+import { ExNgif01Component } from './views/ex-ngif01/ex-ngif01.component';
+import { NgforComponent } from './views/exemplo-ngfor/ngfor.component';
+import { ExNgfor01Component } from './views/ex-ngfor01/ex-ngfor01.component';
 
 @NgModule({
   declarations: [
@@ -32,11 +37,16 @@ import { Ex05Component } from './views/lista02/ex05/ex05.component';
     Ex02Component,
     Ex03Component,
     Ex04Component,
-    Ex05Component
+    Ex05Component,
+    ExemploNgifComponent,
+    ExNgif01Component,
+    NgforComponent,
+    ExNgfor01Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

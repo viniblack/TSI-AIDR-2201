@@ -1,0 +1,19 @@
+<h2>ngif calculadora</h2>
+
+<label for="n1">numero 1</label><br>
+<input id="n1" [(ngModel)]="n1" type="number"><br><br>
+<div *ngIf="n1 && n2">
+  <button (click)="calculadora('+')">+</button>
+  <button (click)="calculadora('-')">-</button>
+  <button (click)="calculadora('*')">*</button>
+  <button (click)="calculadora('/')">/</button>
+</div>
+<br>
+<label for="n2">numero 2</label><br>
+<input id="n2" [(ngModel)]="n2" type="number"> 
+<br><br>
+<div *ngIf="resultado">
+  Resultado é: {{resultado}}
+</div>
+
+
