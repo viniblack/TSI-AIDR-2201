@@ -4,6 +4,18 @@
 </app-interpolation>
  -->
 
-<app-ex-ngfor01>
+<button (click)="mudar('ex1')">ex1</button>
+<button (click)="mudar('ex2')">ex2</button>
+<button (click)="mudar('ex3')">ex3</button>
 
-</app-ex-ngfor01>
+<div [ngSwitch]="ex">
+  <app-ngfor *ngSwitchCase="'ex1'">
+  </app-ngfor>
+
+  <app-event-biding *ngSwitchCase="'ex2'">
+  </app-event-biding>
+
+  <app-exemplo-ngif *ngSwitchCase="'ex3'">
+  </app-exemplo-ngif>
+  <p *ngSwitchDefault>clique em um botão</p>
+</div>

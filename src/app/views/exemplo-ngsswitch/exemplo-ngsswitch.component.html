@@ -1,0 +1,6 @@
+<input [(ngModel)]="dog" type="text" name="" id="">
+
+<div [ngSwitch]="dog" >
+  <img *ngSwitchCase="'dog1'" src="assets/dog1.jpg" alt="">
+  <p *ngSwitchDefault>Imagem não registrada</p>
+</div>

@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular';
   phrase = "Meu primeiro app Angular!";
-  
+
+  ex = '';
+
+  mudar(exercicio: string) {
+
+    this.ex = exercicio;
+
+  }
 }
