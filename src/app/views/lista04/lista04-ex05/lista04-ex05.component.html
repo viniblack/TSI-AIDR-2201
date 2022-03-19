@@ -1,0 +1,19 @@
+<p>
+  <input type="radio" value="dog1" id="dog1" [(ngModel)]="dog">
+  <label for="dog1">dog1</label>
+  <input type="radio" value="dog2" id="dog2" [(ngModel)]="dog">
+  <label for="dog2">dog2</label>
+  <input type="radio" value="dog3" id="dog3" [(ngModel)]="dog">
+  <label for="dog3">dog3</label>
+</p>
+
+
+<img width="300px" src="assets/{{dog}}.jpg" alt="">
+<br>
+{{texto}}
+
+<br>
+<br>
+
+<button (click)="descricao()">cliquei aqui</button>
+<button (click)="limpar()">limpar</button>

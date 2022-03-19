@@ -1,0 +1,19 @@
+<!-- <input type="text" [(ngModel)]="nome" >
+<p>{{nome}}</p> -->
+
+<br><br><br><br>
+
+<!-- Crie 2 caixas de texto. Ao digitar um valor nas
+duas caixas de texto, a soma dos valores deve
+ser exibida num diálogo ao clicar num botão. -->
+
+<label for="lb1">Caixa 1</label>
+<input [(ngModel)]="nome" id="lb1" type="text" >
+<br> <br>
+<label for="lb2">Caixa 2</label>
+<input [(ngModel)]="sobrenome" id="lb2" type="text" >
+<br><br>
+
+<button (click)="escreva()" >clique aqui</button>
+
+{{texto}}

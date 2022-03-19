@@ -1,0 +1,20 @@
+<label for="nome">nome</label>
+<input [(ngModel)]="nome" type="text" name="nome" id="nome">
+<br><br>
+<label for="email">email</label>
+<input [(ngModel)]="email" type="text" name="email" id="email">
+<br><br>
+<label for="tel">tel</label>
+<input [(ngModel)]="tel" type="text" name="tel" id="tel">
+
+<form  action="/action_page.php">
+  <input [(ngModel)]="checkTelefone" type="checkbox" id="checkTelefone" name="checkTelefone" value="checkTelefone">
+  <label for="checkTelefone"> Telefone</label><br>
+  <input [(ngModel)]="checkWhats" type="checkbox" id="checkWhats" name="checkWhats" value="checkWhats">
+  <label for="checkWhats"> Whats</label><br>
+  <input [(ngModel)]="checkEmail" type="checkbox" id="checkEmail" name="checkEmail" value="checkEmail">
+  <label for="checkEmail"> Email</label><br><br>
+  <button (click)="mostraDados()" > Enviar</button>
+</form>
+
+{{texto}}

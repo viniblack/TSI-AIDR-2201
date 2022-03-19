@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,10 @@ import { Ex02Component } from './views/lista02/ex02/ex02.component';
 import { Ex03Component } from './views/lista02/ex03/ex03.component';
 import { Ex04Component } from './views/lista02/ex04/ex04.component';
 import { Ex05Component } from './views/lista02/ex05/ex05.component';
+import { L04Ex01Component } from './views/lista04/l04-ex01/l04-ex01.component';
+import { Lista04Ex03Component } from './views/lista04/lista04-ex03/lista04-ex03.component';
+import { Lista04Ex04Component } from './views/lista04/lista04-ex04/lista04-ex04.component';
+import { Lista04Ex05Component } from './views/lista04/lista04-ex05/lista04-ex05.component';
 
 @NgModule({
   declarations: [
@@ -32,10 +37,15 @@ import { Ex05Component } from './views/lista02/ex05/ex05.component';
     Ex02Component,
     Ex03Component,
     Ex04Component,
-    Ex05Component
+    Ex05Component,
+    L04Ex01Component,
+    Lista04Ex03Component,
+    Lista04Ex04Component,
+    Lista04Ex05Component
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
