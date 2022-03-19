@@ -22,6 +22,11 @@ import { ExNgif01Component } from './views/ex-ngif01/ex-ngif01.component';
 import { NgforComponent } from './views/exemplo-ngfor/ngfor.component';
 import { ExNgfor01Component } from './views/ex-ngfor01/ex-ngfor01.component';
 import { ExemploNgsswitchComponent } from './views/exemplo-ngsswitch/exemplo-ngsswitch.component';
+import { Ex1Component } from './views/prova/ex1/ex1.component';
+import { Ex2Component } from './views/prova/ex2/ex2.component';
+import { Ex3Component } from './views/prova/ex3/ex3.component';
+import { Ex4Component } from './views/prova/ex4/ex4.component';
+import { Ex5Component } from './views/prova/ex5/ex5.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +49,11 @@ import { ExemploNgsswitchComponent } from './views/exemplo-ngsswitch/exemplo-ngs
     NgforComponent,
     ExNgfor01Component,
     ExemploNgsswitchComponent,
+    Ex1Component,
+    Ex2Component,
+    Ex3Component,
+    Ex4Component,
+    Ex5Component,
   ],
   imports: [
     BrowserModule,
