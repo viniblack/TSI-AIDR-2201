@@ -22,6 +22,8 @@ import { ExNgif01Component } from './views/ex-ngif01/ex-ngif01.component';
 import { NgforComponent } from './views/exemplo-ngfor/ngfor.component';
 import { ExNgfor01Component } from './views/ex-ngfor01/ex-ngfor01.component';
 import { ExemploNgsswitchComponent } from './views/exemplo-ngsswitch/exemplo-ngsswitch.component';
+import { MovieComponent } from './views/movie/movie.component';
+import { GamesComponent } from './views/games/games.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { ExemploNgsswitchComponent } from './views/exemplo-ngsswitch/exemplo-ngs
     NgforComponent,
     ExNgfor01Component,
     ExemploNgsswitchComponent,
+    MovieComponent,
+    GamesComponent,
   ],
   imports: [
     BrowserModule,
