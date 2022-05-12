@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "Rodrigo2",
+      "author": "senac"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "movie": [
+    {
+      "id": 1,
+      "title": "Pele",
+      "director": "Chaves"
+    },
+    {
+      "id": 2,
+      "title": "batman",
+      "director": "dc"
+    }
+  ],
+  "game": [
+    {
+      "id": 2,
+      "name": "Counter-Strike",
+      "dev": "VALVE",
+      "plataforma": "PC"
+    },
+    {
+      "id": 3,
+      "name": "LOL",
+      "dev": "Rito Gomes",
+      "plataforma": "PC"
+    }
+  ],
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "Vini",
+      "cpf": "11245566998"
+    }
+  ]
+}
