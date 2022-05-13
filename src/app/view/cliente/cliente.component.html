@@ -10,9 +10,9 @@
 <button (click)="novo()">Novo</button>
 
 <div *ngIf="cliente">
-  <input placeholder="Nome" [(ngModule)]="cliente.nome" type="text">
+  <input placeholder="Nome" [(ngModel)]="cliente.nome">
   <br>
-  <input placeholder="CPF" [(ngModule)]="cliente.cpf" type="text">
+  <input placeholder="CPF" [(ngModel)]="cliente.cpf">
   <br>
   <button (click)="salvar()">Salvar</button>
 </div>
